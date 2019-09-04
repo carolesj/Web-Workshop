@@ -3,10 +3,10 @@ import Navbar from '../organisms/searchbar'
 
 import '../index.css'
 
-const Home = () => (
-  <div>
+const Home = () => {
+  return <div>
     <Navbar></Navbar>
   </div>
-)
+}
 
 export default Home
