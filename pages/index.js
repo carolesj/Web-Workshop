@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../organisms/searchbar'
+import Navbar from '../organisms/navbar'
 
 import '../index.css'
 
