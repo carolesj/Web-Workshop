@@ -1,3 +1,4 @@
-export default () => {
-  return <input className="h-full bg-transparent" type="text" placeholder="Busque aqui" />
+export default (props) => {
+  const { className } = props
+  return <input className={className} type="text" placeholder="Busque aqui" />
 }

@@ -1,8 +1,10 @@
-import Input from '../atom/input'
+import Input from '../atoms/input'
 
 export default () => {
-  return <div>
+<<<<<<< Updated upstream
+  return <div className="rounded text-white bg-purple-600 h-10 w-1/2 flex items-center">
     <svg
+      className="mx-3 my-2"
       width="18"
       height="18"
       viewBox="0 0 18 18"
@@ -13,6 +15,6 @@ export default () => {
         fill="white"
       />
     </svg>
-    <Input></Input>
+    <Input className="h-full w-full bg-transparent"></Input>
   </div>
 }
